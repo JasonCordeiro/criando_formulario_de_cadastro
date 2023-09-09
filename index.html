@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Formulário de Cadastro</title>
+</head>
+<body>
+    <form>
+        <p>Informações pessoais:</p>
+
+        <p><label for="nome"> Nome </label>
+        <input type="text" placeholder="Digite seu nome:" maxlength="10" required/></form></p>
+
+        <p><Label for="e-mail">E-mail</Label> 
+        <input type="text" placeholder="Digite seu e-mail:"/> </p>
+
+        <p><label for="numero"> Numero de Telefone </label>
+        <input type="number" placeholder="Digite seu numero de telefone:" maxlength="10" required/></p>
+        
+        <p><label for="mensagem">O que te motivou a participar:</label> </p>
+        <p><textarea id="mensagem" placeholder="Digite sua mensagem" required="true" cols="20" rows="10"></textarea></p>
+        
+        <p>Gostaria de receber novidade por e-mail:</p>
+
+        <p><Label for="sim">Sim</Label>
+        <input type="radio" name="inputExemplo" id="sim"></p>
+
+        <p><label for="não">Não</label>
+        <input type="radio" name="inputExemplo" id="não"></p>
+
+        <label for="Modulo">Modulo:</label>
+        <select id="Modulo" name="Modulo" required="true">
+            <option value="Sprit 0">Sprit 0</option>
+            <option value="Sprit 1">Sprit 1</option>
+            <option value="Sprit 2">Sprit 2</option>
+        </select>
+
+        <p><label for="senha" aria-required="true"> Senha </label>
+        <input type="password" placeholder="Digite sua senha:" maxlength="10" required/></p>
+
+        <p><label for="senha" aria-required="true"> Digite Novamente Senha </label>
+        <input type="password" placeholder="Digite novamente senha:" maxlength="10" required/></p>
+
+        <p><button type="submit">Enviar</button></p>
+        
+    </form> 
+</body>
+</html>
